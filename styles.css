@@ -3,7 +3,9 @@ body {
     display: block;
 }
 
-
+h2{
+    font-size: 45px;
+}
 #mainHeading {
     text-decoration: underline;
     margin-top: 50px;
@@ -12,6 +14,16 @@ body {
     margin-left: 80px;
     font-size: 55px;
     color: red;
+  }
+  .center {
+    text-align: center;
+    border: 3px solid black;
+  }
+
+  .infoDecor{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 50px;
   }
 
   .funParagraph {
