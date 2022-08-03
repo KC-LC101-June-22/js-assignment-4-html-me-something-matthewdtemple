@@ -34,7 +34,7 @@ h2{
   .imgBorder{
     border: 5px solid white;
   }
-  .funParagraph {
+  #testP, .funParagraph {
     color: green;
     text-align: center;
     font-size: 23px;
@@ -43,6 +43,8 @@ h2{
   inline-size: 650px;
  margin: auto;
 }
+
+
 
 .imgSpace{
   padding-left: 55px;
