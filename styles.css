@@ -6,14 +6,21 @@ body {
 h2{
     font-size: 45px;
 }
-#mainHeading {
+#headingTop {
     text-decoration: underline;
-    margin-top: 50px;
-    margin-bottom: 45px;
+    margin-top: 45px;
+    margin-bottom: 30px;
     margin-right: 80px;
-    margin-left: 80px;
-    font-size: 55px;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+  }
+
+  #mainHeading{
     color: red;
+    font-size: 42px;
+    text-align: center;
+    text-decoration: underline;
   }
   .center {
     text-align: center;
@@ -23,9 +30,24 @@ h2{
   .infoDecor{
     font-size: 22px;
     font-weight: bold;
-    padding: 50px;
+    padding: 5px;
   }
-
+  .imgBorder{
+    border: 5px solid white;
+  }
   .funParagraph {
     color: green;
+    text-align: center;
+    font-size: 23px;
+  }
+.box{
+  inline-size: 650px;
+ margin: auto;
+}
+  html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
