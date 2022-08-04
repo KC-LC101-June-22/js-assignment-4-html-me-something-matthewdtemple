@@ -1,1 +1,67 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+}
+
+h2{
+    font-size: 45px;
+}
+#headingTop {
+    text-decoration: underline;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+  }
+
+  #mainHeading{
+    color: red;
+    font-size: 42px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .center {
+    text-align: center;
+    border: 3px solid black;
+  }
+
+  .infoDecor{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  .imgBorder{
+    border: 5px solid white;
+  }
+  #testP,.funParagraph {
+    color: green;
+    text-align: center;
+    font-size: 23px;
+  }
+.box{
+  inline-size: 650px;
+ margin: auto;
+}
+
+
+
+.imgSpace{
+  padding-left: 55px;
+}
+  html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  img {
+    transition:transform 0.80s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
