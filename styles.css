@@ -34,7 +34,7 @@ h2{
   .imgBorder{
     border: 5px solid white;
   }
-  #testP, .funParagraph {
+  #testP,.funParagraph {
     color: green;
     text-align: center;
     font-size: 23px;
